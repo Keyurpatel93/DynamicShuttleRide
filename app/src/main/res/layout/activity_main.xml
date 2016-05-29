@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/mainLogo"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/smartmobilitylogo"
+
+      />
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Shuttle"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/userRadioGroup"
+        android:layout_margin="10dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kobe"
+            android:id="@+id/rider1_radio"
+            android:checked="true"
+            android:buttonTint="#00BFFF"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James"
+            android:id="@+id/rider2_radio"
+            android:buttonTint="#00BFFF"
+            />
+
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/authenticate"
+        android:id="@+id/authenticate_button"
+        android:background="#00BFFF"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dynamicshuttle"
+        android:id="@+id/shuttleImgView"
+
+     />
+
+    </LinearLayout>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/pin"
+                />
+
+            <TextView
+                android:id="@+id/pickUPLocationView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pickup: Building 5  "
+                android:textColor="#00BFFF"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:src="@android:drawable/ic_menu_mylocation"
+
+
+                />
+            <TextView
+                android:id="@+id/destinationView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Destination: HQ "
+                android:textColor="#00BFFF"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00ace6"
+                android:layout_marginRight="3dp"
+                android:text="Arrival: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/arrivalTimeView"
+                android:singleLine="true"
+                android:textColor="#d0d6dc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:ellipsize="marquee"
+                android:text="10:30 "/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

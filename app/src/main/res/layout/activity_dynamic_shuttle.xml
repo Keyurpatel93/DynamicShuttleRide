@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DynamicShuttleRideActivity"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Good Morning,!"
+    android:textSize="20dp"
+    android:padding="10dp"
+    android:background="#000000"
+    android:textColor="#d0d6dc"
+    android:gravity="center"
+    android:id="@+id/greetingView"
+    />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFrameView"
+        >
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="WHERE DO YOU WANT TO GO?"
+        android:textSize="40dp"
+        android:padding="25dp"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        />
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/pin"
+            android:id="@+id/destinationImg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:hint="Select Destination"
+            android:layout_alignBottom="@+id/destinationImg"
+            android:layout_toEndOf="@+id/myLocationImg"
+            android:textColor="#00BFFF"
+            android:id="@+id/destinationView"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:id="@+id/myLocationImg"
+            android:layout_below="@id/destinationImg"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:hint="Select Your Location"
+            android:textColor="#00BFFF"
+            android:layout_alignBottom="@+id/myLocationImg"
+            android:layout_toEndOf="@+id/myLocationImg"
+            android:id="@+id/myLocationView"/>
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="8dp"
+
+            android:id="@+id/passengerImg"
+            android:layout_below="@id/myLocationImg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/passengerImg"
+            android:layout_alignBottom="@id/passengerImg"
+            android:layout_toRightOf="@id/destinationImg"
+            android:text="Passengers: "
+            android:textSize="20dp"
+            android:id="@+id/passengerText"
+            android:textColor="#768489"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/passengerText"
+            android:layout_alignBottom="@id/passengerImg"
+            android:text="-"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#00ace6"
+            android:id="@+id/minusBtn"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="1"
+            android:textSize="25sp"
+            android:layout_toEndOf="@id/minusBtn"
+            android:layout_alignBottom="@id/minusBtn"
+            android:id="@+id/passengerCountView"
+            />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/passengerCountView"
+            android:layout_alignBottom="@id/passengerCountView"
+            android:text="+"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#00ace6"
+            android:id="@+id/plusBtn"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="My Rides"
+        android:id="@+id/myRidesBtn"
+        android:padding="10dp"
+        android:background="#000000"
+        android:textColor="#d0d6dc"
+        android:clickable="true"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="BOOK RIDE"
+        android:id="@+id/bookRideBtn"
+        android:background="#00BFFF"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        />
+
+
+</LinearLayout>

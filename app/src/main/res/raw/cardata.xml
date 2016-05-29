@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><CarData>
+	<Car>
+		<key>key</key>
+		<adminkey>admin</adminkey>
+		<userauthenticated/>
+		<settings>
+			<setting type="enfoceSeatBelt">0</setting>
+			<setting type="maxSpeed"></setting>
+			<setting type="seatPositionX">50</setting>
+			<setting type="radioStations">85.5,89.3,88.2 </setting>
+		</settings>
+	</Car>
+	<Users>
+		<user>
+			<firstname>Adult</firstname>
+			<lastname>Doe</lastname>
+			<bssid>11</bssid>
+			<admin>1</admin>
+			<settings>
+				<setting type="enfoceSeatBelt">0</setting>
+				<setting type="maxSpeed">90</setting>
+				<setting type="seatPositionX">10</setting>
+				<setting type="radioStations">85.5,89.3,88.2 </setting>
+			</settings>
+		</user>
+		<user>
+			<firstname>Teen1</firstname>
+			<lastname>Joe</lastname>
+			<bssid>33</bssid>
+			<admin>0</admin>
+			<settings>
+				<setting type="enfoceSeatBelt">1</setting>
+				<setting type="maxSpeed">55</setting>
+				<setting type="seatPositionX">80</setting>
+				<setting type="radioStations">95.5,102.5,103.5</setting>
+			</settings>
+		</user>
+		<user>
+			<firstname></firstname>
+			<lastname></lastname>
+			<bssid></bssid>
+			<admin></admin>
+			<settings>
+				<setting type="enfoceSeatBelt"></setting>
+				<setting type="maxSpeed"></setting>
+				<setting type="seatPositionX"></setting>
+				<setting type="radioStations"/>
+			</settings>
+		</user>
+		<user>
+			<firstname></firstname>
+			<lastname></lastname>
+			<bssid></bssid>
+			<admin></admin>
+			<settings>
+				<setting type="enfoceSeatBelt"></setting>
+				<setting type="maxSpeed"></setting>
+				<setting type="seatPositionX"></setting>
+				<setting type="radioStations"/>
+			</settings>
+		</user>
+		<user>
+			<firstname/>
+			<lastname/>
+			<bssid/>
+			<admin></admin>
+			<settings>
+				<setting type="enfoceSeatBelt"></setting>
+				<setting type="maxSpeed"></setting>
+				<setting type="seatPositionX"/>
+				<setting type="radioStations"/>
+			</settings>
+		</user>
+	</Users>
+
+</CarData>
