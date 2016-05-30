@@ -29,7 +29,7 @@ This application also prototypes the use of QR codes to authenticate users board
 
 
 Need fingerprint permission to allow the application to authenticate using the fingerprint sensor.
-Need read/write permission to read and write to a json file that stores data for the application. The json 	file called “outStandingRides.txt” which is located at the root of the internal storage, stores outstanding rides for the user so the QR code can be generated whenever a user opens the application. 
+Need read/write permission to read and write to a json file that stores data for the application. The json 	file named “outStandingRides.txt” which is located at the root of the internal storage, stores outstanding rides for the user so the QR code can be generated whenever a user opens the application. 
 
 ## License
 Licensed under the BSD license.
