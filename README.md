@@ -1,10 +1,10 @@
-#MyCar
+#Dynamic Shuttle Ride
 
 The Dynamic Shuttle Ride app is an android application that was developed to emulate an on demand shuttle service app to 
 prototype new features and functionality. Information about a dynamic shuttle service can be found [here] (https://media.ford.com/content/fordmedia/fna/us/en/news/2015/12/10/ford-dynamic-shuttle-service-moves-from-experiment-to-pilot.html). 
 Note this application does not contain the full functionality of the dynamic shuttle application and cannot request rides. 
 One feature this prototype application explores is how the fingerprint sensor on android devices can be leveraged to allow users access to the application to book a ride using the dynamic shuttle service. The utilization of biometrics on mobile devices for authentication is increasing as it removes the necessity of a username and password and allows for authentication using a user’s fingerprint which is more convenient. 
-This application also prototypes the use of QR codes to authenticate users boarding the shuttle. This application will generate a unique QR code based on the requested ride, which the user will then have to present upon entering the shuttle. A similar feature can be found at airports when using a QR code as a boarding pass.  
+This application also prototypes the use of QR codes to authenticate users boarding the shuttle. This application will generate a unique QR code based on the requested ride, which the user will then have to present upon entering the shuttle. A similar feature can be found at airports when using a QR code as a boarding pass. An application that can scans these QR codes and gathers intersting statiscs can be found [here] (https://github.com/Keyurpatel93/DynamicShuttle).
 
 
 
